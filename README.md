@@ -2,11 +2,17 @@
 
 > Right-click any graph. Get the data. Feed it to AI.
 
-<video src="https://github.com/user-attachments/assets/4390ae51-06e5-4e46-a6b6-d33cdff9fbe0" autoplay loop muted playsinline width="100%"></video>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/4390ae51-06e5-4e46-a6b6-d33cdff9fbe0" autoplay loop muted playsinline width="80%"></video>
+</div>
+
+<div align="center">
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cepidnjndbmllpkigekbocfjakmfjlko?label=Chrome%20Web%20Store&logo=google-chrome&logoColor=white&color=4F46E5)](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko)
 [![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/cepidnjndbmllpkigekbocfjakmfjlko?color=4F46E5)](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+</div>
 
 ---
 
@@ -22,7 +28,9 @@ GraphConvert fixes this in seconds.
 
 GraphConvert is a Chrome extension that extracts precise (x, y) data points from any graph image on the web. Right-click, calibrate your axes, and get back clean numerical data ready to paste straight into an AI prompt, spreadsheet, or analysis tool.
 
-<img src="https://github.com/user-attachments/assets/c735df1c-4b0c-4bb3-b0c8-c979127f4630" width="320" alt="Extension Popup" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c735df1c-4b0c-4bb3-b0c8-c979127f4630" width="280" alt="Extension Popup" />
+</div>
 
 ---
 
@@ -34,7 +42,9 @@ GraphConvert is a Chrome extension that extracts precise (x, y) data points from
 4. **Extract** — choose 25, 50, or 100 data points
 5. **Export** as JSON, CSV, or TXT — ready for AI, Excel, or Python
 
-<img src="https://github.com/user-attachments/assets/ff493d2d-25b4-44f0-8a66-b780dad709db" width="100%" alt="GraphConvert Landing Page" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ff493d2d-25b4-44f0-8a66-b780dad709db" width="80%" alt="GraphConvert Landing Page" />
+</div>
 
 ---
 
@@ -120,7 +130,9 @@ The digitization pipeline runs in 6 steps:
 
 **Live on the Chrome Web Store.** Full pipeline working end-to-end.
 
-<img src="https://github.com/user-attachments/assets/4462977d-8ec4-4eea-9cab-64abbd2bd162" width="100%" alt="Chrome Web Store Listing" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4462977d-8ec4-4eea-9cab-64abbd2bd162" width="80%" alt="Chrome Web Store Listing" />
+</div>
 
 **Roadmap:**
 - Auto axis detection via OCR (Pro feature)
@@ -148,7 +160,7 @@ git clone https://github.com/seb-krols/graphconvert.git
 ## Contact
 
 **Sebastian Krols**
-[github.com/seb-krols](https://github.com/seb-krols) · [LinkedIn](https://linkedin.com/in/sebastiankrols)
+[github.com/seb-krols](https://github.com/seb-krols) · [LinkedIn](https://www.linkedin.com/in/sebastians-krols/)
 
 Questions, feedback, or want to collaborate? Feel free to open an issue or reach out directly.
 
