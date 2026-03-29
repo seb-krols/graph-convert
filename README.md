@@ -2,11 +2,10 @@
 
 > Right-click any graph. Get the data. Feed it to AI.
 
-<!-- HERO: Replace with GIF of right-click → extraction flow -->
-![GraphConvert Demo](https://github.com/user-attachments/assets/4390ae51-06e5-4e46-a6b6-d33cdff9fbe0)
+<video src="https://github.com/user-attachments/assets/4390ae51-06e5-4e46-a6b6-d33cdff9fbe0" autoplay loop muted playsinline width="100%"></video>
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/YOUR_EXTENSION_ID?label=Chrome%20Web%20Store&logo=google-chrome&logoColor=white&color=4F46E5)](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko?utm_source=item-share-cb)
-[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/YOUR_EXTENSION_ID?color=4F46E5)](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko?utm_source=item-share-cb)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cepidnjndbmllpkigekbocfjakmfjlko?label=Chrome%20Web%20Store&logo=google-chrome&logoColor=white&color=4F46E5)](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko)
+[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/cepidnjndbmllpkigekbocfjakmfjlko?color=4F46E5)](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
@@ -23,8 +22,7 @@ GraphConvert fixes this in seconds.
 
 GraphConvert is a Chrome extension that extracts precise (x, y) data points from any graph image on the web. Right-click, calibrate your axes, and get back clean numerical data ready to paste straight into an AI prompt, spreadsheet, or analysis tool.
 
-<!-- POPUP: Replace with screenshot of extension popup -->
-![Extension Popup](https://github.com/user-attachments/assets/c735df1c-4b0c-4bb3-b0c8-c979127f4630)
+<img src="https://github.com/user-attachments/assets/c735df1c-4b0c-4bb3-b0c8-c979127f4630" width="320" alt="Extension Popup" />
 
 ---
 
@@ -36,8 +34,7 @@ GraphConvert is a Chrome extension that extracts precise (x, y) data points from
 4. **Extract** — choose 25, 50, or 100 data points
 5. **Export** as JSON, CSV, or TXT — ready for AI, Excel, or Python
 
-<!-- LANDING PAGE: Replace with screenshot of landing page -->
-![GraphConvert Landing Page](https://github.com/user-attachments/assets/ff493d2d-25b4-44f0-8a66-b780dad709db)
+<img src="https://github.com/user-attachments/assets/ff493d2d-25b4-44f0-8a66-b780dad709db" width="100%" alt="GraphConvert Landing Page" />
 
 ---
 
@@ -123,8 +120,7 @@ The digitization pipeline runs in 6 steps:
 
 **Live on the Chrome Web Store.** Full pipeline working end-to-end.
 
-<!-- STORE: Replace with Chrome Web Store screenshot -->
-![Chrome Web Store](https://github.com/user-attachments/assets/4462977d-8ec4-4eea-9cab-64abbd2bd162)
+<img src="https://github.com/user-attachments/assets/4462977d-8ec4-4eea-9cab-64abbd2bd162" width="100%" alt="Chrome Web Store Listing" />
 
 **Roadmap:**
 - Auto axis detection via OCR (Pro feature)
@@ -136,7 +132,7 @@ The digitization pipeline runs in 6 steps:
 
 ## Install
 
-**[→ Add to Chrome](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko?utm_source=item-share-cb)**
+**[→ Add to Chrome](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko)**
 
 Or load unpacked for development:
 ```bash
