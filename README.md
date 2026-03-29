@@ -3,7 +3,7 @@
 > Right-click any graph. Get the data. Feed it to AI.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/4390ae51-06e5-4e46-a6b6-d33cdff9fbe0" autoplay loop muted playsinline width="80%"></video>
+  <video src="https://github.com/user-attachments/assets/4390ae51-06e5-4e46-a6b6-d33cdff9fbe0" autoplay loop muted playsinline width="60%"></video>
 </div>
 
 <div align="center">
@@ -18,7 +18,7 @@
 
 ## The Problem
 
-AI tools can't read graphs. Upload a chart to ChatGPT or Claude and the best you'll get is *"this appears to show an upward trend"* — no numbers, no precision, no actual data. Every researcher, engineer, and student who's ever tried to digitize a graph from a paper or textbook knows the pain: you're either squinting and manually writing down values, or you're stuck with vague qualitative observations.
+AI tools can't read graphs. Upload a chart to ChatGPT or Claude and the best you'll get is *"this appears to show an upward trend"* - no numbers, no precision, no actual data. Every researcher, engineer, and student who's ever tried to digitize a graph from a paper or textbook knows the pain: you're either squinting and manually writing down values, or you're stuck with vague qualitative observations.
 
 GraphConvert fixes this in seconds.
 
@@ -146,16 +146,6 @@ The digitization pipeline runs in 6 steps:
 
 **[→ Add to Chrome](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko)**
 
-Or load unpacked for development:
-```bash
-# Clone the repo
-git clone https://github.com/seb-krols/graphconvert.git
-
-# Load in Chrome
-# chrome://extensions → Enable Developer Mode → Load Unpacked → select extension/
-```
-
----
 
 ## Contact
 
