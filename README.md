@@ -10,7 +10,6 @@
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cepidnjndbmllpkigekbocfjakmfjlko?label=Chrome%20Web%20Store&logo=google-chrome&logoColor=white&color=4F46E5)](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko)
 [![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/cepidnjndbmllpkigekbocfjakmfjlko?color=4F46E5)](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
 
@@ -38,9 +37,9 @@ GraphConvert is a Chrome extension that extracts precise (x, y) data points from
 
 1. **Right-click** any graph image on any webpage
 2. **Select** "Digitize Graph with GraphConvert"
-3. **Calibrate** — enter your axis min/max values (reads directly from the graph)
-4. **Extract** — choose 25, 50, or 100 data points
-5. **Export** as JSON, CSV, or TXT — ready for AI, Excel, or Python
+3. **Calibrate** - enter your axis min/max values (reads directly from the graph)
+4. **Extract** - choose 25, 50, or 100 data points
+5. **Export** as JSON, CSV, or TXT - ready for AI, Excel, or Python
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/ff493d2d-25b4-44f0-8a66-b780dad709db" width="80%" alt="GraphConvert Landing Page" />
@@ -56,7 +55,7 @@ GraphConvert runs a full client-server pipeline:
 Captures the graph image via context menu, handles axis calibration UI, displays the extracted point overlay on the original image, and manages export.
 
 **FastAPI Backend (Railway)**
-Does the heavy lifting — Hough transform axis detection, curve isolation via color filtering and morphology, centroid-based point sampling, and pixel-to-coordinate transformation. Processes images in RAM only, never stored.
+Does the heavy lifting - Hough transform axis detection, curve isolation via color filtering and morphology, centroid-based point sampling, and pixel-to-coordinate transformation. Processes images in RAM only, never stored.
 
 **Supabase**
 Handles user authentication, usage tracking (server-side enforced, can't be bypassed), and the coupon system.
@@ -81,12 +80,12 @@ Supabase (users, usage_logs, coupons)
 
 The digitization pipeline runs in 6 steps:
 
-1. **Axis detection** — Hough transform finds the X and Y axis lines
-2. **Plot area bounds** — axis intersection defines the usable graph region
-3. **Manual calibration** — user enters x_min, x_max, y_min, y_max from the graph labels
-4. **Curve isolation** — color filtering and morphological operations isolate the curve pixels
-5. **Point sampling** — for each sampled x-column, centroid method finds the curve's y-pixel
-6. **Coordinate transform** — pixel positions mapped to real-world values via linear interpolation
+1. **Axis detection** - Hough transform finds the X and Y axis lines
+2. **Plot area bounds** - axis intersection defines the usable graph region
+3. **Manual calibration** - user enters x_min, x_max, y_min, y_max from the graph labels
+4. **Curve isolation** - color filtering and morphological operations isolate the curve pixels
+5. **Point sampling** - for each sampled x-column, centroid method finds the curve's y-pixel
+6. **Coordinate transform** - pixel positions mapped to real-world values via linear interpolation
 
 ---
 
@@ -106,13 +105,13 @@ The digitization pipeline runs in 6 steps:
 
 ## Features
 
-- **Right-click capture** — works on any graph image on any webpage
-- **3 output formats** — JSON (AI-ready), CSV (Excel-ready), TXT (universal)
-- **25 / 50 / 100 point extraction** — choose your resolution
-- **Visual overlay** — extracted points drawn over original image for verification
-- **Server-side usage enforcement** — can't be bypassed by clearing browser data
-- **Privacy-first** — images processed in RAM only, never saved to disk or database
-- **Freemium** — 10 graphs/day free, unlimited on Pro
+- **Right-click capture** - works on any graph image on any webpage
+- **3 output formats** - JSON (AI-ready), CSV (Excel-ready), TXT (universal)
+- **25 / 50 / 100 point extraction** - choose your resolution
+- **Visual overlay** - extracted points drawn over original image for verification
+- **Server-side usage enforcement** - can't be bypassed by clearing browser data
+- **Privacy-first** - images processed in RAM only, never saved to disk or database
+- **Freemium** - 10 graphs/day free, unlimited on Pro
 
 ---
 
@@ -147,13 +146,19 @@ The digitization pipeline runs in 6 steps:
 **[→ Add to Chrome](https://chromewebstore.google.com/detail/cepidnjndbmllpkigekbocfjakmfjlko)**
 
 
+## This is a Showcase
+
+This is a public showcase of a private repository. The extension is live and free to try; the source is kept private because GraphConvert is a commercial product.
+
+---
+
 ## Contact
 
-**Sebastian Krols**
+**Sebastians Krols**
 [github.com/seb-krols](https://github.com/seb-krols) · [LinkedIn](https://www.linkedin.com/in/sebastians-krols/)
 
 Questions, feedback, or want to collaborate? Feel free to open an issue or reach out directly.
 
 ---
 
-*© 2026 Sebastian Krols. All rights reserved.*
+*© 2026 Sebastians Krols. All rights reserved.*
